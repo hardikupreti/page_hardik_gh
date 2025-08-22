@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython, faMicrochip, faRobot } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faDocker, faPython, faXbox } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -40,7 +40,7 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faMicrochip} size="3x"/>
+                    <FontAwesomeIcon icon={faXbox} size="3x"/>
                     <h3>Electrical Validation</h3>
                     <p>I have characterized various Analog IPs like LVDS RX, PLL, Voltage Regulator, Error Amplifier etc.</p>
                     <div className="flex-chips">
@@ -52,7 +52,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faRobot} size="3x"/>
+                    <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Bench Setup Automation</h3>
                     <p>Once the Silicon Bringup is completed, I develop Python based automation using PyVisa library to enable data collection on the circuits with minimal manual intervention.</p>
                     <div className="flex-chips">
