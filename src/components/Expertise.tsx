@@ -42,7 +42,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faXbox} size="3x"/>
                     <h3>Electrical Validation</h3>
-                    <p>I have characterized various Analog IPs like LVDS RX, PLL, Voltage Regulator, Error Amplifier etc.</p>
+                    <p>Characterized Analog IPs like LVDS RX, PLL, Voltage Regulator, Error Amplifier etc.</p>
                     <div className="flex-chips">
                         <span className="chip-title">IPs Characterized:</span>
                         {labelsFirst.map((label, index) => (
