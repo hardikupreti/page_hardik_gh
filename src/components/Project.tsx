@@ -10,6 +10,7 @@ import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import proj1 from '../assets/images/proj1.png';
+import proj2 from '../assets/images/proj2.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
