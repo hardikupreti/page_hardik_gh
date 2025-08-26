@@ -19,13 +19,13 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={proj1} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Analog Bangap Reference Design</h2></a>
+                <a  target="_blank" rel="noreferrer"><img src={proj1} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a  target="_blank" rel="noreferrer"><h2>Analog Bangap Reference Design</h2></a>
                 <p>Analog Bandgap Reference Design using 90nm GPDK on Cadence Virtuoso</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={proj2} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Sequence Detector using Verilog</h2></a>
+                <a  target="_blank" rel="noreferrer"><img src={proj2} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a  target="_blank" rel="noreferrer"><h2>Sequence Detector using Verilog</h2></a>
                 <p>Designed and Implemented a Sequence Detector using Verilog uisng FSM concept.</p>
             </div>
         </div>
